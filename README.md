@@ -9,7 +9,7 @@ To configure swagger follow below steps
 ### Add swagger related depedency
 
 ```
-<dependency>
+		<dependency>
 		    <groupId>io.springfox</groupId>
 		    <artifactId>springfox-swagger-ui</artifactId>
 		   <version>2.6.1</version>
@@ -81,12 +81,10 @@ public class Application {
     }
 }
 ```
-**
-.paths(PathSelectors.regex("/*.*product*.*"))
+**.paths(PathSelectors.regex("/*.*product*.*"))
 It means it will check the path and register only which contains "product"
 If we want to list all repository we can give like 
-.paths(PathSelectors.any())
-**
+.paths(PathSelectors.any())**
 
 
 ### sample repository
