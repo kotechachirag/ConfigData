@@ -81,10 +81,12 @@ public class Application {
     }
 }
 ```
-**.paths(PathSelectors.regex("/*.*product*.*"))
-It means it will check the path and register only which contains "product"
-If we want to list all repository we can give like 
-.paths(PathSelectors.any())**
+**
+- .paths(PathSelectors.regex("/*.*product*.*"))
+- It means it will check the path and register only which contains "product"
+- If we want to list all repository we can give like 
+- .paths(PathSelectors.any())
+**
 
 
 ### sample repository
